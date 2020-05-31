@@ -128,10 +128,6 @@ void IntColumn::saveToFile(ofstream& oFile)
 		}
 	}
 }
-void IntColumn::addEmptyRows(int rowsNum)
-{
-	
-}
 IntColumn::IntColumn(const char* columnName, int rows)
 {
 	if (rows)

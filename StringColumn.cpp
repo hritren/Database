@@ -109,10 +109,6 @@ void StringColumn::saveToFile(ofstream& oFile)
 		}
 	}
 }
-void StringColumn::addEmptyRows(int rowsNum)
-{
-
-}
 void StringColumn::resize()
 {
 	capacity *= 2;

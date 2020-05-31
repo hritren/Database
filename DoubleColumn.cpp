@@ -108,10 +108,6 @@ void DoubleColumn::saveToFile(ofstream& oFile)
 		}
 	}
 }
-void DoubleColumn::addEmptyRows(int rowsNum)
-{
-
-}
 void DoubleColumn::resize()
 {
 	capacity *= 2;
